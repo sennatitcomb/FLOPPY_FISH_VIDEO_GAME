@@ -1,0 +1,32 @@
+{
+  "name": "final-project-team-3",
+  "version": "1.0.0",
+  "description": "Dynamic content with Express and Handlebars",
+  "main": "server.js",
+  "scripts": {
+    "404": "handlebars views/404.handlebars -f public/404Template.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "handlebars public/index.handlebars -f public/index.js",
+    "prestart": "npm run 404",
+    "start": "node server.js",
+    "game": "handlebars views/game.handlebars -f public/gameTemplate.js",
+    "player": "handlebars views/partials/player.handlebars -f public/playerTemplate.js",
+    "score": "handlebars views/score.handlebars -f public/scoreTemplate.js",
+    "html": "handlebars views/layouts/html.handlebars -f public/htmlTemplate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/osu-cs290-sp21/final-project-team-3.git"
+  },
+  "author": "Senna, Max Fu, Tanya Bihari, Alanna Croysdale",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/osu-cs290-sp21/final-project-team-3/issues"
+  },
+  "homepage": "https://github.com/osu-cs290-sp21/final-project-team-3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.7"
+  }
+}

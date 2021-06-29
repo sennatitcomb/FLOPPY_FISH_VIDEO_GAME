@@ -1,0 +1,215 @@
+#defaultCanvas0 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+  margin: 130px auto;
+  background-color: rgb(215, 241, 237);
+  border: solid 3px rgb(215, 241, 237);
+}
+
+#menubackdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.site-title{
+  margin: 0;
+  padding: 21px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  background-color: rgb(191, 243, 235);
+  color: rgb(220, 201, 128);
+  text-shadow: 1px 1px  rgb(0, 0, 0);
+  font-family: 'Oi', Helvetica, sans-serif;
+}
+
+body {
+  display: block;
+  background-color: rgb(179, 227, 218);
+  margin: 0;
+  background-image: url(kelp1.png);
+  background-repeat: repeat;
+ 
+}
+
+.menu {
+  top: 10;
+  bottom: 5;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 60px auto;
+  width: 200px;
+  height: 420px;
+  background-color: rgb(215, 241, 237); 
+  border: solid 3px rgb(215, 241, 237);
+  overflow: scroll;
+}
+
+.dead
+{
+  visibility: hidden;
+}
+
+.menuitem {
+  list-style-type: none;
+  display: block; 
+  position: relative;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top:65px;
+  text-align: center;
+  margin-left:-50px;
+  margin-bottom: 20px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+}
+
+.main {
+  font-size: 30px;
+}
+
+a {
+  color: rgb(220, 201, 128);
+  text-shadow: 1px 1px  rgb(97, 95, 95);
+  text-decoration: none;
+}
+p
+{
+  color: rgb(220, 201, 128);
+  text-shadow: 1px 1px rgb(97, 95, 95);
+  text-decoration: none;
+}
+
+.scores {
+  margin: auto;
+  width: 50%;
+  height: 800px;
+}
+
+.kelp {
+  height: 120px;
+}
+
+.playerscore {
+  padding: 25px;
+  display: inline;
+}
+
+#howto { /** container for instructions and header **/
+  margin-top:15%;
+  background: rgb(215, 241, 237);
+  width:100%;
+}
+
+#header {
+  font-size: 30px;
+  padding-top:20px;
+  padding-left:20px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+  text-shadow: 1px 1px rgb(97, 95, 95); 
+}
+#instructions {
+  font-size: 20px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  font-weight: 100;
+  padding-bottom:20px;
+  padding-left:20px;
+}
+
+.bubble {
+  width:25px;
+  height:25px;
+}
+
+#high-scores {
+  text-align: center;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 100;
+  margin-left:-40px;
+  margin-bottom: 20px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  border-bottom: dotted rgba(9, 9, 9, 0.803);
+}
+
+#updatingscore {
+  margin-top:37%;
+  background: rgb(215, 241, 237);
+  width:100%;
+  font-size: 30px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  padding: 20px;
+  color:rgb(220, 201, 128);
+}
+form {
+  padding:20px;
+  width:100%;
+  background: rgb(215, 241, 237);
+}
+label {
+  font-size: 30px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+  text-shadow: 1px 1px rgb(97, 95, 95);
+}
+
+input[type=text] {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+}
+
+input[type=text]:focus {
+  border: 3px solid rgb(85, 85, 85);
+}
+
+#again2 {
+  background: rgb(215, 241, 237);
+  width:15%;
+  font-size: 30px;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+}
+
+#save {
+  width:100%;
+  height:100%;
+  position: fixed;
+  background: rgb(215, 241, 237);
+}
+
+h2
+{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+}
+
+
+h3
+{
+  font-size:50px;
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color:rgb(220, 201, 128);
+}
+
